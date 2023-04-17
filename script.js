@@ -65,26 +65,26 @@ function result() {
 
 
 
-// const testList = document.querySelector('.test-list')
-// const d1 = new Date('2017-03-11T11:30:00');
-// const d2 = new Date('2017-03-11T11:30:00Z');
-// console.log(d1.toString())
-// console.log(d2.toString())
+const testList = document.querySelector('.test-list')
+const d1 = new Date('2017-03-11T11:30:00');
+const d2 = new Date('2017-03-11T11:30:00Z');
+console.log(d1.toString())
+console.log(d2.toString())
 //
-// const date = new Date()
+const date = new Date()
 // // console.log(date.getTimeZoneOffset())
 // // const currentTimeZoneOffsetInHours = date.getTimezoneOffset();
 // // testList.innerHTML = `<div>${currentTimeZoneOffsetInHours}</div>`;
 //
-// function formatDate(date) {
-// 	const fullMonth = date.getMonth() < 10 ? '0' + date.getMonth() : date.getMonth();
-// 	return `${date.getDate()}.${fullMonth}.${date.getFullYear()} ${
-// 		date.getHours()}:${date.getMinutes()}`
-// }
+function formatDate(date) {
+	const fullMonth = date.getMonth() < 10 ? '0' + date.getMonth() : date.getMonth();
+	return `${date.getDate()}.${fullMonth}.${date.getFullYear()} ${
+		date.getHours()}:${date.getMinutes()}`
+}
 //
-// const moscow = new Date();
-// const currentTimeZoneOffsetInHours = Math.abs(moscow.getTimezoneOffset() / 60);
+const moscow = new Date();
+const currentTimeZoneOffsetInHours = Math.abs(moscow.getTimezoneOffset() / 60);
 //
 //
-// testList.innerHTML = `<div>Время ${currentTimeZoneOffsetInHours !== 3 ? '(по МСК)' : ''}</div>`;
+testList.innerHTML = `<div>Время ${currentTimeZoneOffsetInHours !== 3 ? '(по МСК)' : ''}</div>`;
 //
