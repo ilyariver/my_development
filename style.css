@@ -1,0 +1,18 @@
+*{
+    font-family: tahoma, sans-serif;
+}
+table{
+    width: 50%;
+}
+
+.test-list {
+    list-style: none;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.test-list__item {
+    margin-right: 5px;
+    font-size: 5px;
+}
